@@ -1,0 +1,780 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue Feb 21 10:40:06 2017"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 18, 500, 50
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 100
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 10
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.2, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 2.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/projects/bioenergy/BendingDown/110_fst2/anal/25_dist.dat"
+@    s0 legend  "Run 25 1-16"
+@target G0.S0
+@type xy
+0 18.8694
+1 19.152494
+2 19.346577
+3 19.352816
+4 19.484486
+5 19.490097
+6 19.531094
+7 19.720787
+8 19.905792
+9 20.070463
+10 20.227062
+11 20.544415
+12 20.547333
+13 20.520039
+14 20.74827
+15 20.889795
+16 20.956842
+17 21.101067
+18 21.44314
+19 21.532846
+20 21.681263
+21 21.865969
+22 21.95969
+23 21.998243
+24 22.138746
+25 22.30073
+26 22.46106
+27 22.403492
+28 22.419212
+29 22.606087
+30 22.619835
+31 22.804367
+32 23.117428
+33 23.282616
+34 23.420027
+35 23.447315
+36 23.77762
+37 23.82534
+38 24.047255
+39 24.079823
+40 24.125128
+41 24.14749
+42 24.465534
+43 24.600645
+44 24.57361
+45 24.620836
+46 24.72994
+47 24.733276
+48 24.979116
+49 25.039785
+50 25.232359
+51 25.408405
+52 25.594872
+53 25.721853
+54 26.043179
+55 26.380146
+56 26.460754
+57 26.525291
+58 26.483019
+59 26.785088
+60 26.837473
+61 26.999702
+62 27.086945
+63 27.091671
+64 26.98177
+65 27.143696
+66 27.25688
+67 27.430004
+68 27.607389
+69 27.698404
+70 27.739626
+71 27.649324
+72 27.730808
+73 27.812765
+74 27.801657
+75 27.920313
+76 27.976385
+77 27.998686
+78 28.125185
+79 28.110289
+80 28.319183
+81 28.486671
+82 28.548019
+83 28.726332
+84 28.857134
+85 28.929989
+86 29.124123
+87 29.017082
+88 29.075115
+89 29.037092
+90 29.183401
+91 29.193848
+92 29.200991
+93 29.306015
+94 29.372717
+95 29.433884
+96 29.449825
+97 29.329866
+98 29.477386
+99 29.437134
+100 29.616701
+101 29.547157
+102 29.799129
+103 29.962774
+104 29.967676
+105 30.069118
+106 30.296597
+107 30.384838
+108 30.449963
+109 30.59985
+110 30.628307
+111 30.875835
+112 30.86005
+113 30.980312
+114 31.081268
+115 31.095293
+116 31.058189
+117 31.173252
+118 31.441589
+119 31.37392
+120 31.537214
+121 31.486998
+122 31.626711
+123 31.435316
+124 31.6523
+125 31.598316
+126 31.76075
+127 31.826668
+128 32.027607
+129 32.126781
+130 32.159157
+131 32.151283
+132 32.156322
+133 32.120243
+134 32.13306
+135 32.125072
+136 32.214523
+137 32.28661
+138 32.402519
+139 32.340042
+140 32.359192
+141 32.40226
+142 32.492859
+143 32.376186
+144 32.504032
+145 32.563946
+146 32.764362
+147 32.702606
+148 32.908989
+149 32.82085
+150 32.83699
+151 32.950539
+152 33.104092
+153 33.13546
+154 33.192383
+155 33.370052
+156 33.42532
+157 33.399754
+158 33.226742
+159 33.425014
+160 33.371681
+161 33.28302
+162 33.437569
+163 33.403336
+164 33.392754
+165 33.40942
+166 33.698685
+167 33.698997
+168 33.778458
+169 33.84713
+170 33.847923
+171 33.907558
+172 33.929913
+173 33.914661
+174 34.103764
+175 34.287113
+176 34.421093
+177 34.425381
+178 34.589062
+179 34.682217
+180 34.73333
+181 34.892616
+182 34.83334
+183 34.955463
+184 35.037731
+185 35.026062
+186 34.914875
+187 34.967289
+188 35.081848
+189 35.01178
+190 35.030552
+191 35.330738
+192 35.215561
+193 35.258331
+194 35.354446
+195 35.359676
+196 35.355553
+197 35.44833
+198 35.3601
+199 35.35675
+200 35.253471
+201 35.377808
+202 35.667599
+203 35.756912
+204 35.741127
+205 35.712864
+206 35.630138
+207 35.753727
+208 35.662422
+209 35.721142
+210 35.644722
+211 35.861965
+212 35.979908
+213 35.870838
+214 35.880634
+215 35.9538
+216 35.854729
+217 36.058086
+218 36.164112
+219 36.296349
+220 36.296871
+221 36.504677
+222 36.584526
+223 36.644714
+224 36.569386
+225 36.334801
+226 36.384811
+227 36.474087
+228 36.563042
+229 36.679413
+230 36.848553
+231 36.872433
+232 36.821575
+233 36.999046
+234 37.183472
+235 37.173752
+236 37.409153
+237 37.493237
+238 37.412529
+239 37.462513
+240 37.570267
+241 37.568974
+242 37.577183
+243 37.722591
+244 37.851368
+245 37.911816
+246 37.954765
+247 37.943287
+248 38.077076
+249 38.053844
+250 38.190125
+251 38.150078
+252 38.044594
+253 38.177521
+254 38.390247
+255 38.319244
+256 38.324028
+257 38.28426
+258 38.269398
+259 38.32399
+260 38.32819
+261 38.305027
+262 38.408695
+263 38.449219
+264 38.665222
+265 38.844482
+266 38.891575
+267 38.978752
+268 39.065865
+269 39.225464
+270 39.295284
+271 39.275715
+272 39.363098
+273 39.363743
+274 39.631489
+275 39.746254
+276 39.60844
+277 39.724659
+278 39.639984
+279 39.816223
+280 39.874508
+281 39.978916
+282 39.992691
+283 40.068039
+284 40.189678
+285 40.044785
+286 40.042061
+287 40.01619
+288 39.960846
+289 40.21693
+290 40.372967
+291 40.424057
+292 40.374313
+293 40.347744
+294 40.400742
+295 40.518105
+296 40.663429
+297 40.685604
+298 40.693226
+299 40.764427
+300 40.830132
+301 40.943409
+302 41.037075
+303 41.031258
+304 41.036034
+305 40.846626
+306 41.032715
+307 41.053722
+308 41.103355
+309 41.060387
+310 41.030361
+311 41.119358
+312 41.264793
+313 41.32354
+314 41.466496
+315 41.525494
+316 41.419064
+317 41.567741
+318 41.510197
+319 41.528984
+320 41.505424
+321 41.357895
+322 41.373001
+323 41.321522
+324 41.299648
+325 41.218464
+326 41.273392
+327 41.122105
+328 41.177017
+329 41.27906
+330 41.271881
+331 41.348244
+332 41.339806
+333 41.438805
+334 41.565693
+335 41.594494
+336 41.592365
+337 41.624191
+338 41.762142
+339 41.847748
+340 41.845081
+341 41.786018
+342 41.89204
+343 41.953499
+344 41.943581
+345 42.039753
+346 42.016029
+347 41.945591
+348 41.986824
+349 41.998726
+350 42.006649
+351 42.061836
+352 41.968655
+353 41.991291
+354 42.050919
+355 42.192802
+356 42.229652
+357 42.259377
+358 42.347687
+359 42.615528
+360 42.343529
+361 42.355766
+362 42.339382
+363 42.317036
+364 42.525959
+365 42.560207
+366 42.660355
+367 42.697174
+368 42.747078
+369 42.716274
+370 43.524368
+371 43.596893
+372 43.77544
+373 43.854424
+374 43.928776
+375 44.140594
+376 44.132
+377 44.111618
+378 44.018471
+379 44.076988
+380 44.143719
+381 44.195011
+382 44.263485
+383 44.237438
+384 44.640308
+385 44.532158
+386 44.566425
+387 44.656757
+388 44.621506
+389 44.822468
+390 44.781082
+391 44.866074
+392 44.762669
+393 44.851562
+394 44.916451
+395 44.864956
+396 44.819138
+397 44.869804
+398 44.746796
+399 44.90649
+400 44.706379
+401 44.821655
+402 44.979633
+403 45.117184
+404 45.163059
+405 45.240707
+406 45.117687
+407 44.947449
+408 45.070217
+409 44.928017
+410 44.882309
+411 45.118332
+412 45.101768
+413 45.178894
+414 45.062496
+415 45.021561
+416 45.242538
+417 45.24176
+418 45.463356
+419 45.534878
+420 45.484425
+421 45.569065
+422 45.538307
+423 45.407314
+424 45.393719
+425 45.222931
+426 45.442883
+427 45.389847
+428 45.405018
+429 45.473145
+430 45.453678
+431 45.879601
+432 45.74453
+433 45.720444
+434 45.897659
+435 45.800732
+436 45.98431
+437 45.914978
+438 46.111355
+439 46.091217
+440 46.033466
+441 46.171062
+442 46.091209
+443 46.279034
+444 46.143787
+445 46.22707
+446 46.314682
+447 46.240139
+448 46.310741
+449 46.338673
+450 46.352673
+451 46.624454
+452 46.584076
+453 46.455967
+454 46.408215
+455 46.458397
+456 46.4496
+457 46.358734
+458 46.400032
+459 46.441589
+460 46.339855
+461 46.465614
+462 46.451355
+463 46.303944
+464 46.448132
+465 46.540668
+466 46.575459
+467 46.672993
+468 46.575375
+469 46.631638
+470 46.753441
+471 46.703419
+472 46.748894
+473 46.820847
+474 46.791508
+475 46.866146
+476 46.968739
+477 46.974365
+478 46.895901
+479 46.962532
+480 46.842583
+481 46.759605
+&
